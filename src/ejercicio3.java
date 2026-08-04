@@ -12,7 +12,7 @@ public class ejercicio3 {
 
        for (int i = 0; i < n; i++) {
            numeros[i] = Integer.parseInt(
-                   JOptionPane.showInputDialog("Ingrese el número " + (i + 1))
+                   JOptionPane.showInputDialog("Ingrese el número: " + (i + 1))
            );
        }
 
