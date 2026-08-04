@@ -8,7 +8,7 @@ public class ejercicio1 {
         int pares = 0;
         int impar = 0;
 
-        Cnumeros = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de numeros deseada "));
+        Cnumeros = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de numeros deseada: "));
 
         int[] numeros = new int[Cnumeros];
 
