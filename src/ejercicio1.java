@@ -18,15 +18,25 @@ public class ejercicio1 {
 
         }
 
-        for (int i=0; i<Cnumeros;i++){
+        for (int i=0; i<Cnumeros;i++) {
 
-            if(numeros)
+            if (numeros[i] % 2 == 0){
 
+                pares++;
 
+            } else {
+                impar++;
+            }
+            }
+
+        JOptionPane.showMessageDialog(null, "Números pares: " + pares +
+                        "\nNúmeros impares: " + impar);
+
+        }
         }
 
 
 
-    }
 
-}
+
+
