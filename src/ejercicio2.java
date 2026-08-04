@@ -15,7 +15,7 @@ public class ejercicio2 {
         for (int i = 0; i < n; i++) {
             notas[i] = Double.parseDouble(
                     JOptionPane.showInputDialog(
-                            "Ingrese la nota del estudiante " + (i + 1)
+                            "Ingrese la nota del estudiante: " + (i + 1)
                     )
             );
 
