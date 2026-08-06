@@ -40,7 +40,7 @@ public class ejercicio5 {
                 JOptionPane.showMessageDialog(
                         null,
                         "El número " + buscar +
-                                " fue encontrado en las posiciones: " + posiciones
+                                " fue encontrado en las posiciones= " + posiciones
                 );
 
             } else {
