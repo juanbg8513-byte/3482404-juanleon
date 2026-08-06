@@ -44,7 +44,7 @@ public class ejercicio6 {
 
         } else if (votosB > votosA && votosB > votosC) {
 
-            ganador = "Ganó el candidato B";
+            ganador = "Ganó el candidato B.";
 
         } else if (votosC > votosA && votosC > votosB) {
 
