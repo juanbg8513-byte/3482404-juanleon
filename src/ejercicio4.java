@@ -12,7 +12,7 @@ public class ejercicio4 {
 
         for (int i = 0; i < Ct; i++) {
 
-            temperatura[i] = Integer.parseInt(JOptionPane.showInputDialog("Ingrese los valores de las temperaturas  (en grados Celsius):  "));
+            temperatura[i] = Integer.parseInt(JOptionPane.showInputDialog("Ingrese los valores de las temperaturas  (en grados Celsius)="));
 
             if (temperatura[i]<10) {
 
